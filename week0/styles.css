@@ -1,0 +1,22 @@
+body {
+    font-family: Helvetica;
+    font-size: 18px;
+  }
+
+ul {
+    font-style: italic;
+}
+
+header img {
+    float: right;
+}
+
+header h1 {
+    text-align: center;
+}
+
+body {
+    max-width: 65ch;
+    margin-left: auto;
+    margin-right: auto;
+}
