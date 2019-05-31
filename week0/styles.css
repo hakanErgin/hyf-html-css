@@ -1,10 +1,11 @@
 body {
-    font-family: Helvetica;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
     font-size: 18px;
+    
   }
 
-ul {
-    font-style: italic;
+h1 {
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif
 }
 
 header img {
@@ -16,7 +17,19 @@ header h1 {
 }
 
 body {
-    max-width: 65ch;
-    margin-left: auto;
-    margin-right: auto;
+    background-color: rgb(248, 252, 255);
+    margin: 0 15% 0 15%;
+}
+
+footer {
+    text-align: center;
+    font-size: 14px;
+    border-style: dashed;
+    border-radius: 20px;
+    border-width: 1px;
+}
+
+#workExperience {
+    border-bottom-style: solid;
+    border-bottom-width: 1px;
 }
