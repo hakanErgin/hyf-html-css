@@ -6,33 +6,21 @@ body {
 h1 {
     font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif
 }
-/*
-header img {
-    float: right;
-}*/
 
 header h1 {
+    margin: 1%;
     text-align: center;
 }
 
 body {
-    background-color: rgb(248, 252, 255);
     margin: 0 15% 0 15%;
 }
 
 footer {
     text-align: center;
     font-size: 14px;
-    border-style: dashed;
-    border-radius: 20px;
-    border-width: 1px;
-    margin-bottom: 5px
+    margin: 5px;
 }
-
-/*#workExperience {
-    border-bottom-style: solid;
-    border-bottom-width: 1px;
-}*/
 
 .two-columns {
     display: flex;
@@ -43,5 +31,25 @@ footer {
 }
 
 iframe {
-    margin: 2% 0 0 0;
+    margin: 5% 0 0 0;
+}
+
+#aboutbox {
+    display: flex;
+    justify-content: space-between;
+    border-bottom-style: solid;
+    border-bottom-width: 1px;
+}
+
+#aboutbox img {
+    border-radius: 50%;
+    margin: 0 5em 1em 5em;
+    height: 100%;
+    
+}
+
+main {
+    background-color: rgb(247, 247, 230);
+    border-radius: 2.5%;
+    padding: 20px;
 }
