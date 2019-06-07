@@ -1,0 +1,101 @@
+html {
+    font-family: 'Courier New', Courier, monospace;
+    text-align: center;
+}
+
+main {
+    margin: 0 2% 0 2%;
+}
+
+section {
+    background-color: rgb(200, 240, 200);
+    border-radius: 10px;
+}
+
+#grid-flex {
+    display: flex;
+    flex-wrap: wrap;
+}
+
+#grid-floats .grid-item {
+    float: left;
+}
+
+/*clearfix*/
+#grid-floats::after {
+    content: "";
+    clear: both;
+    display: table;
+  }
+
+img {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 50%;
+}
+ 
+ul {
+    list-style: none;
+    padding: 0 2% 0 2%;
+}
+
+h2 {
+    border: 1px solid;
+    border-radius: 5px;
+    background-color: beige;
+}
+
+.grid-item{
+    margin: 1%;
+    background-color: white;
+    border-radius: 10px;
+    padding: 1%;
+    box-shadow: 6px 6px 6px grey;    
+}
+
+@media screen and (max-width: 480px) {
+    .grid-item {
+        max-width: 46%;
+    }
+
+    .grid-item:nth-child(1) {
+        max-width: 96%;
+    }
+
+    #grid-floats .grid-item {
+        min-height: 650px;
+}
+
+}
+
+@media screen and (min-width: 480px) and (max-width:768px) {
+    .grid-item {
+        max-width: 29%;
+    }
+
+    .grid-item:nth-child(1), .grid-item:nth-child(2) {
+        max-width: 46%;
+    }
+
+    #grid-floats .grid-item {
+        min-height: 550px;
+}
+
+}
+
+@media screen and (min-width: 768px) {
+    .grid-item {
+        max-width: 21%;
+    }
+
+    .grid-item:nth-child(1) {
+        max-width: 46%;
+    }
+
+    #grid-floats .grid-item {
+        min-height: 450px;
+}
+
+}
+
