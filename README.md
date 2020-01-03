@@ -1,7 +1,3 @@
----
-layout: post
-title: Blogging Like a Hacker
----
 
 # Learning module for HTML/CSS
 
